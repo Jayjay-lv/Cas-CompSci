@@ -1,0 +1,3 @@
+1. it gets a string and returns first vowel in name
+2. if let and else because it tells the user that it doesn't have the proper input
+3.you'd need to expand the getFirstVowel function to allow for a broader input
