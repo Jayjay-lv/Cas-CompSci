@@ -127,6 +127,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         ]
         if dayName == "Monday"{
             let mySched = getScheduleForDay(periods: MondayPeriodRotation[ACBDay]!, mySchedule: mySchedule)
+            generatedschedule.text = mySched
         } else {
         let mySched = getScheduleForDay(periods: periodRotation[ACBDay]!, mySchedule:mySchedule)
         generatedschedule.text = mySched
