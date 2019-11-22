@@ -33,8 +33,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         "D": "US History",
         "E":"Trigonometry",
         "F":"Spanish",
-        "G": "Free",
-        "H": "Free"
+         "G": "free",
+        "Monday": "Life Skills"
     ]
     
     let myMonSchedule:[String:String] = [
