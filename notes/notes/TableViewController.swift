@@ -48,7 +48,7 @@ class TableViewController: UITableViewController {
         // Configure the cell...
         let note = notes[indexPath.row]
         cell.textLabel?.text = "\(note.date) - \(note.note)"
-
+        
         return cell
     }
     
