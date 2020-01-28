@@ -28,6 +28,7 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
         
         recipePicker.delegate = self
         recipePicker.dataSource = self
+       
         
         if let oldData = load() {
             recipeData = oldData
@@ -89,12 +90,12 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
     }
 
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return "Recipe \(recipeData[row].recipe)"
+        return " \(recipeData[row].recipe)"
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         let recipeItem = recipeData[row]
-        recipeLabel.text = " \(recipeItem.recipe)"
+        recipeLabel.text = recipeItem.recipe
         ingriedientsLabel.text = recipeItem.ingriedients
         InstructionsLabel.text = recipeItem.instructions
     }

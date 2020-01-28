@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1C166823E09F65000A0F85 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C1C166723E09F65000A0F85 /* README.txt */; };
 		0C6347F123DA8D6600DB456C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6347F023DA8D6600DB456C /* AppDelegate.swift */; };
 		0C6347F323DA8D6600DB456C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6347F223DA8D6600DB456C /* ViewController.swift */; };
 		0C6347F623DA8D6600DB456C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6347F423DA8D6600DB456C /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C1C166723E09F65000A0F85 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		0C6347ED23DA8D6600DB456C /* recipeBookV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipeBookV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6347F023DA8D6600DB456C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C6347F223DA8D6600DB456C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				0C6347F023DA8D6600DB456C /* AppDelegate.swift */,
 				0C6347F223DA8D6600DB456C /* ViewController.swift */,
 				0C63480423DA942A00DB456C /* EditViewController.swift */,
+				0C1C166723E09F65000A0F85 /* README.txt */,
 				0C63480223DA913F00DB456C /* recipeItem.swift */,
 				0C6347F423DA8D6600DB456C /* Main.storyboard */,
 				0C6347F723DA8D6D00DB456C /* Assets.xcassets */,
@@ -130,6 +133,7 @@
 			files = (
 				0C6347FB23DA8D6D00DB456C /* LaunchScreen.storyboard in Resources */,
 				0C6347F823DA8D6D00DB456C /* Assets.xcassets in Resources */,
+				0C1C166823E09F65000A0F85 /* README.txt in Resources */,
 				0C6347F623DA8D6600DB456C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

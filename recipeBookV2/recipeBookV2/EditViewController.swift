@@ -13,6 +13,7 @@ class EditViewController: UIViewController {
     @IBOutlet weak var recipeLabel: UILabel!
     @IBOutlet weak var ingriedientsInput: UITextField!
     
+    @IBOutlet weak var recipeInput: UITextField!
     
     @IBOutlet weak var instructionsInput: UITextField!
     
@@ -23,7 +24,7 @@ class EditViewController: UIViewController {
         super.viewDidLoad()
         
         
-        recipeLabel.text = " \(selectedItem!.recipe)"
+        recipeLabel.text = selectedItem?.recipe
         ingriedientsInput.text = selectedItem?.ingriedients
         instructionsInput.text = selectedItem?.instructions
 
@@ -35,6 +36,7 @@ class EditViewController: UIViewController {
         if let selectedItem = selectedItem {
             selectedItem.ingriedients = ingriedientsInput.text ?? "nothing"
             selectedItem.instructions = instructionsInput.text ?? "just make it"
+            selectedItem.recipe = recipeInput.text ?? "Huh"
         }
         saveRecipe()
     }
