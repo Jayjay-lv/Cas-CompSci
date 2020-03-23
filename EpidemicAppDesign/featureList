@@ -1,0 +1,10 @@
+1. The user should be able to view news articles on the home page.
+2. the user should be able to click on the news articles and be transported to the news articles in a new view controller.
+3. the user should be able to filter all news and info to just present stuff regarding their location
+4. the user should be able to click to a new view controller which has a general map around their location
+5. the map should use data from the government reportings to highlight areas where people have been confirmed to have the virus
+6. the user should be able to view alerts from the local government when the alerts are made.
+7. the user should be able to click on a link that would take them to a new view controller that would show them general guidelines for everything regarding the virus
+8. the user should be able to put in their location in a user input box.
+9. the user should be able to click a list of apps/services that provide delivery for all sorts of things
+10. the user should be able to click links to the services and be transported to the services.
