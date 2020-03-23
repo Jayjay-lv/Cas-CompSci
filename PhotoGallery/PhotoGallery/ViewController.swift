@@ -72,7 +72,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
      
         addPhototoStack(image: photo!)
         
-        // totalPictures += 1
+         totalPictures += 1
         // add photo to button?
         }
     
@@ -112,12 +112,12 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
     func addPhototoStack(image: UIImage) {
        let newButton = UIButton()
             newButton.setImage(image, for: .normal)
-        newButton.frame = CGRect(x: 0, y: 0, width: 320, height: 120)
+        newButton.frame = CGRect(x: 0, y: 0, width: 420, height: 1300)
         newButton.setTitle("photo", for: .normal)
         newButton.setTitleColor(UIColor .white, for: .normal)
         stackView.addArrangedSubview(newButton)
    
-        stackView.frame = CGRect(x: 0, y: 150, width: 200, height: (totalPictures * 200))
+        stackView.frame = CGRect(x: 0, y: 150, width: 400, height: (totalPictures * 200))
            
         scrollView.contentSize = CGSize(width: 400, height: (totalPictures * 200))
 
