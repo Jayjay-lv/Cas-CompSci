@@ -68,12 +68,20 @@ class GameManager{
         scene.scorePos = CGPoint(x: randomX, y: randomY)
     }
     
-    
+    func generateRandomColor() -> SKColor {
+        let redValue = CGFloat.random(in: 0...1)
+        let greenValue = CGFloat.random(in: 0...1)
+        let blueValue = CGFloat.random(in: 0...1)
+          
+        let randomColor = UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: 1.0)
+          
+        return randomColor
+    }
     
     func renderChange() {
         for (node, x, y) in scene.gameArray {
             if contains(a: scene.playerPositions, v: (x,y)) {
-                node.fillColor = SKColor.green
+                node.fillColor = generateRandomColor()
             } else {
                 node.fillColor = SKColor.clear
                 
